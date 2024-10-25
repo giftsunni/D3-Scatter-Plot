@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#title {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#scatter-plot-container {
+    display: inline-block;
+    position: relative;
+}
+
+svg {
+    width: 900px;
+    height: 500px;
+}
+
+.dot {
+    stroke: #333;
+    stroke-width: 1px;
+    fill-opacity: 0.7;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.legend {
+    font-size: 12px;
+}
+
+.axis-label {
+    font-size: 12px;
+}
